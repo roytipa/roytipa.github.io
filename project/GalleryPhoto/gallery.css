@@ -129,7 +129,13 @@ background-color: rgb(0,0,0); /* Fallback color */
 background-color: rgba(0,0,0,0.9); /* Black w/ opacity */
 }
 .modal img{
-width : 100%;
+max-width : 100%;
+    width: auto;
+    height: auto;
+    display: block;
+    margin: auto;
+    text-align: center;
+    clear: both;    
 }
 /* Modal Content (image) */
 .modal-content {
@@ -208,12 +214,7 @@ width: 100%;
 
 .modal img {
 max-width: 100%;
-    width: auto;
-    height: auto;
-    display: block;
-    margin: auto;
-    text-align: center;
-    clear: both;
+
 }
 
 .close2 {
