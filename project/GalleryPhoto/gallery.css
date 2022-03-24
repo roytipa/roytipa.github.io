@@ -111,9 +111,10 @@
     }
 }
     .image .Subtitle{padding-bottom: 10px}
-    .Ket{padding-bottom: 10px;font-weight: 600}
+    .Ket{padding-bottom: 10px;}
     .dataphoto{display:none;}
 /* The Modal (background) */
+.modal svg path {fill:#ffffff}
 .modal {
 display: none; /* Hidden by default */
 position: fixed; /* Stay in place */
@@ -168,14 +169,15 @@ to {transform:scale(1)}
 /* The Close Button */
 .close2 {
 position: fixed;
-    top: 50px;
-    right: 35px;
+    top: 10px;
+    right: 10px;
     color: #f1f1f1;
-    font-size: 25px;
     transition: 0.3s;
-    padding: 5px 10px;
-    background: #3e97e3;
+    padding: 10px;
+    background: #0000005e;
     border-radius: 10px;
+    width: 25px;
+    height: 25px;
 }
 .close2:hover,
 .close2:focus, .opengal:hover,
