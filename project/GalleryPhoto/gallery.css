@@ -207,7 +207,13 @@ width: 100%;
 }
 
 .modal img {
-    max-width: 100%;
+max-width: 100%;
+    width: auto;
+    height: auto;
+    display: block;
+    margin: auto;
+    text-align: center;
+    clear: both;
 }
 
 .close2 {
