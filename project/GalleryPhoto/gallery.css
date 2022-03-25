@@ -1,3 +1,48 @@
+.mytitle {
+    margin: 0;
+    padding: 10px;
+    max-width: 100%;
+    line-height: 1.5em;
+    text-align: center;
+    color: #fff;
+    background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+    background-size: 400% 400%;
+    -webkit-animation: gradientBG 10s ease infinite;
+    animation: gradientBG 10s ease infinite;
+    border-radius: 20px 20px 0 0;
+}
+.mysubtitle {
+    margin: 0 0 3px;
+    background: #e3e0d3;
+    padding: 10px 10px 20px;
+    max-width: 100%;
+    border-radius: 0 0 20px 20px;
+    text-align: center;
+}
+@-webkit-keyframes gradientBG {
+    0% {
+        background-position: 0 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0 50%;
+    }
+}
+@keyframes gradientBG {
+    0% {
+        background-position: 0 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0 50%;
+    }
+}
+
+
 .image {
     border-radius: 10px;
     border: 0;
@@ -28,28 +73,7 @@
     border-radius: 0 0 20px 20px;
     text-align: center;
 }
-@-webkit-keyframes gradientBG {
-    0% {
-        background-position: 0 50%;
-    }
-    50% {
-        background-position: 100% 50%;
-    }
-    100% {
-        background-position: 0 50%;
-    }
-}
-@keyframes gradientBG {
-    0% {
-        background-position: 0 50%;
-    }
-    50% {
-        background-position: 100% 50%;
-    }
-    100% {
-        background-position: 0 50%;
-    }
-}
+
 .image img {
     border-radius: 10px;
     display: block;
