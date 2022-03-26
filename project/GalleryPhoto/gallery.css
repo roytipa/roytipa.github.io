@@ -65,14 +65,6 @@
     animation: gradientBG 10s ease infinite;
     border-radius: 20px 20px 0 0;
 }
-.ket {
-    margin: 0 0 3px;
-    background: #e3e0d3;
-    padding: 10px 10px 20px;
-    max-width: 100%;
-    border-radius: 0 0 20px 20px;
-    text-align: center;
-}
 
 .image img {
     border-radius: 10px;
