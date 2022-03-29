@@ -1,0 +1,109 @@
+.image {
+    border-radius: 10px;
+    border: 0;
+    display: inline-block;
+    position: relative;
+    text-align: center;
+    opacity: 1;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+}
+.judul {
+    margin: 0;
+    padding: 10px;
+    max-width: 100%;
+    line-height: 1.5em;
+    text-align: center;
+    color: #fff;
+    background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+    background-size: 400% 400%;
+    -webkit-animation: gradientBG 10s ease infinite;
+    animation: gradientBG 10s ease infinite;
+    border-radius: 20px 20px 0 0;
+}
+.ket {
+    margin: 0 0 3px;
+    background: #e3e0d3;
+    padding: 10px 10px 20px;
+    max-width: 100%;
+    border-radius: 0 0 20px 20px;
+    text-align: center;
+}
+@-webkit-keyframes gradientBG {
+    0% {
+        background-position: 0 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0 50%;
+    }
+}
+@keyframes gradientBG {
+    0% {
+        background-position: 0 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0 50%;
+    }
+}
+.image img {
+    border-radius: 10px;
+    display: block;
+}
+.image:hover img {
+    opacity: 0.7;
+}
+.image.fit img {
+    width: 100%;
+}
+.columns {
+    position: relative;
+    -moz-column-count: 3;
+    -webkit-column-count: 3;
+    column-count: 3;
+    -moz-column-gap: 5px;
+    -webkit-column-gap: 5px;
+    column-gap: 5px;
+    padding: 10px 5px;
+    max-width: 100%;
+}
+.columns .image {
+    position: relative;
+    display: inline-block;
+    margin: 0 0 2px;
+    width: 100%;
+    overflow: hidden;
+}
+.columns .image img {
+    -moz-transition: -moz-transform 0.2s ease-in-out;
+    -webkit-transition: -webkit-transform 0.2s ease-in-out;
+    -ms-transition: -ms-transform 0.2s ease-in-out;
+    transition: transform 0.2s ease-in-out;
+    -webkit-backface-visibility: hidden;
+    -webkit-transform: translate3D(0, 0, 0);
+}
+@media screen and (max-width: 880px) {
+    .columns {
+        -moz-column-count: 3;
+        -webkit-column-count: 3;
+        column-count: 3;
+    }
+}
+@media screen and (max-width: 640px) {
+    .columns {
+        -moz-column-count: 2;
+        -webkit-column-count: 2;
+        column-count: 2;
+    }
+}
+@media screen and (max-width: 320px) {
+    .columns {
+        -moz-column-count: 1;
+        -webkit-column-count: 1;
+        column-count: 1;
+    }
+}
