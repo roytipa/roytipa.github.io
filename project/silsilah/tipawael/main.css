@@ -402,6 +402,7 @@ width: 100%;
     z-index: 1;
     position: relative;
     width: 120px;
+    height:120px;
     background-color: #b7bcc7;}
 .about .pic img{width:100%;height:auto; display:block}
 .about .name{font-size:15px;font-weight:600;color:#333;text-transform:capitalize;margin:0;}
