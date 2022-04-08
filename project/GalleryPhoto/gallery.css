@@ -131,10 +131,11 @@
     .dataphoto{display:none;}
 /* The Modal (background) */
 .modal svg path {fill:#ffffff}
+.modal svg, svg path{width 24px}
 .modal {
 display: none; /* Hidden by default */
 position: fixed; /* Stay in place */
-z-index: 2; /* Sit on top */
+z-index: 100; /* Sit on top */
 /*padding-top: 50px; */
 left: 0;
 top: 0;
