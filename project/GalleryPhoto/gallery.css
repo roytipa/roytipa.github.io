@@ -201,6 +201,7 @@ position: fixed;
     border-radius: 10px;
     width: 25px;
     height: 25px;
+    box-sizing:content-box;
 }
 .close2:hover,
 .close2:focus, .opengal:hover,
