@@ -93,8 +93,7 @@
     margin: 0 0 10px;
     width: 100%;
     overflow: hidden;
-    background-color: #12719b; 
-    color: #fff
+
 }
 .columns .image img {
     -moz-transition: -moz-transform 0.2s ease-in-out;
@@ -103,7 +102,7 @@
     transition: transform 0.2s ease-in-out;
     -webkit-backface-visibility: hidden;
     -webkit-transform: translate3D(0, 0, 0);
-    border-radius: 10px 10px 0 0!important;margin-bottom: 10px;margin-bottom: 10px;
+    border-radius: 10px 10px 0 0!important;
 }
 @media screen and (max-width: 880px) {
     .columns {
