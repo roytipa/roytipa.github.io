@@ -222,6 +222,22 @@ background-color: #dd8133
     border-radius: 10px;
 }
 
+    .tblDownload:hover{
+        color: #fff;
+    cursor: pointer;
+    background-color: #dd8133;
+    }
+.tblDownload{position: fixed;
+    top: 10px;
+    right: 75px;
+    color: #f1f1f1;
+    transition: 0.3s;
+    padding: 10px;
+    background: #0000005e;
+    border-radius: 10px;
+    width: 25px;
+    height: 25px;
+    box-sizing: content-box;}
 
 /* 100% Image Width on Smaller Screens */
 @media only screen and (max-width: 700px){
