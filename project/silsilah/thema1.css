@@ -1,6 +1,6 @@
 
 .SilsilahArea{
-background: #030708;
+background: #05163a;
 padding:10px;
 border-radius: 20px 20px 0 0;
 }
@@ -284,7 +284,7 @@ width: 100%;
 }
 
 .member-view-box{padding:0;text-align:left;border-radius:4px;position:relative;height:40px;border:2px solid #599bb3;display:block;
-background-color:#004b66;
+background-color:#4267b2;
 -moz-border-radius:8px;
 -webkit-border-radius:8px;
 color:#ffffff;
@@ -293,7 +293,7 @@ text-shadow:0px 2px 2px #000000;
 overflow:hidden;
 }
 .member-image{position:relative}
-.member-image img{width:40px!important;height:40px!important;background-color:#3a889d;z-index:1;float:left;border-radius:3px 0 0 3px}
+.member-image img{width:40px!important;height:40px!important;z-index:1;float:left;border-radius:3px 0 0 3px}
 .member-details{display:inline-block;margin-top:0;margin-left:10px;word-break:break-word;text-align:left;white-space:pre-wrap;line-height:1;top:50%;position:absolute;transform:translateY(-50%);
     font-weight: 500;
 }
@@ -302,14 +302,14 @@ overflow:hidden;
 
   @media screen and (max-width:440px){.pricing_table .plan{width:100%}}
 .about{       outline: 0;
-    background-color: #255262;
+    background-color: #4267b2;
     text-align: center;
     padding: 10px 10px 50px;
     margin: 10px 10px 100px 10px;
     border-radius: 20px 20px 0 0;
     position: relative;
 }
-.about::after,.about::before{content:"";border-top:40px solid #255262;border-right:125px solid transparent;position:absolute;bottom:-40px;left:0}
+.about::after,.about::before{content:"";border-top:40px solid #4267b2;border-right:125px solid transparent;position:absolute;bottom:-40px;left:0}
 .about::after{border-right:none;border-left:125px solid transparent;left:auto;right:0}
 .about .icon{display:inline-block;font-size:28px;color:#fff;margin-bottom:20px}
 
