@@ -1,10 +1,8 @@
 
 .SilsilahArea{
 background: #030708;
-    min-height: 100%;
-    width: calc(100% - 20px);
-    position: absolute;
-    border-radius: 20px 20px 0 0;
+padding:10px;
+border-radius: 20px 20px 0 0;
 }
 ul, #myUL {
 list-style-type: none;
@@ -18,7 +16,6 @@ display:none;
 }
 
 #mysilsilah{
-padding: 10px;
 overflow: auto;
 max-height:100%;
 white-space: nowrap;
@@ -298,7 +295,6 @@ overflow:hidden;
 .member-image{position:relative}
 .member-image img{width:40px!important;height:40px!important;background-color:#3a889d;z-index:1;float:left;border-radius:3px 0 0 3px}
 .member-details{display:inline-block;margin-top:0;margin-left:10px;word-break:break-word;text-align:left;white-space:pre-wrap;line-height:1;top:50%;position:absolute;transform:translateY(-50%);
-font-family: poppins;
     font-weight: 500;
 }
 
@@ -312,8 +308,6 @@ font-family: poppins;
     margin: 10px 10px 100px 10px;
     border-radius: 20px 20px 0 0;
     position: relative;
-    width: calc(100% - 40px);
-font-family: 'Poppins';
 }
 .about::after,.about::before{content:"";border-top:40px solid #255262;border-right:125px solid transparent;position:absolute;bottom:-40px;left:0}
 .about::after{border-right:none;border-left:125px solid transparent;left:auto;right:0}
