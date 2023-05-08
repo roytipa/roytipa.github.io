@@ -201,6 +201,7 @@ position: fixed;
     width: 25px;
     height: 25px;
     box-sizing:content-box;
+    z-index:200;
 }
 .close2:hover,
 .close2:focus, .opengal:hover,
@@ -237,7 +238,9 @@ background-color: #dd8133
     border-radius: 10px;
     width: 25px;
     height: 25px;
-    box-sizing: content-box;}
+    box-sizing: content-box;
+    z-index:200;
+}
 
 /* 100% Image Width on Smaller Screens */
 @media only screen and (max-width: 700px){
