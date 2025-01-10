@@ -11,6 +11,9 @@
     animation: gradientBG 10s ease infinite;
     border-radius: 20px 20px 0 0;
 }
+.ketPhoto{
+    font-size:80%;
+}
 .mysubtitle {
     margin: 0 0 3px;
     background: #e3e0d3;
