@@ -259,6 +259,7 @@ max-width: 100%;
 .close2 {
     position: absolute;
     right: 10px;
+    top:60px;
     font-size: 25px;
 
 }
